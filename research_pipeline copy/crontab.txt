@@ -1,0 +1,2 @@
+# Run research pipeline twice per week (Monday and Thursday at 6am PST)
+0 14 * * 1,4 /usr/local/bin/python /app/main.py >> /var/log/research.log 2>&1
